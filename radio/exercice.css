@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenu{
+    width: 30%;
+    margin: 150px 150px;
+    border: 7px solid black;
+    /* padding: 1px; */
+    background-color: rgb(252, 202, 110);
+    text-align: center;
+    border-radius: 45%;
+}
+
+
+img {
+    width: 31%;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.selected{
+    transform: rotate(360deg);
+}
+
+.paused{
+    opacity: 0.5;
+}
+
+body{
+    background-image: url(https://blog.electronicexpress.com/wp-content/uploads/2019/08/adobestock_167893515.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
